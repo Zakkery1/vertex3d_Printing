@@ -1,4 +1,58 @@
-.topnav {
-    background-color: black;
-    overflow: hidden;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#333333;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+/* justify-content: space-between will push the left and right items to the 
+far edges and put the item in the middle it will evenly space between those two */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+/* cursor pointer changes the mouse cursor when hovering over the logo */
+.logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+/* list style none removes the bullet points from the lists */
+.nav_links {
+    list-style: none;
+}
+/* display inline-block makes each item on the navbar appear next to each other */
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px
+}
+/* transition is the animation of a color change when combined with :hover */
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+/* :hover sets the color  and opacity for when you hover over an element */
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
