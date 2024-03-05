@@ -1,8 +1,8 @@
 /* the body started with 8 margin, this helps the header span the entire length of the top  */
 body{
+    background-image: url(./mainpage-bg-desktop-1.jpg);
     margin: 0;
     padding: 0;
-    background-image: url(./mainpage-bg-desktop-1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,9 +17,10 @@ and spacing them */
     width: 100%;
     height: 5%;
     margin-bottom: 15px;
+    margin-top: 20px;
     justify-content: space-between;
     align-items: center;
-    /* border: 3px solid red; */
+    /* background-color: #1B2338; */
 }
 
 /* modifies the logo size, cursor: pointer gives the mouse cursor a pointer when mousing over 
@@ -76,18 +77,16 @@ padding: 0px 20px;
 }
 
 #main {
-    height: 70%;
+    height: 90%;
     width: 100%;
-    border: 3px red solid;
 }
 
 #main_div {
     /* border: 3px solid red; */
     width: 60%;
-    height: 20%;
+    height: 60%;
     margin-left: 15%;
-    margin-top: 15%
-    
+    /* margin-top: 1% */
 }
 
 #main_div h1 {
@@ -95,6 +94,7 @@ padding: 0px 20px;
     font-family: 'Archivo Black', sans-serif;
     font-size: 44px;
     font-weight: 500;
+    padding-top: 13%;
     margin: 0;
 }
 
@@ -145,4 +145,36 @@ padding: 0px 20px;
 #button2:active {
     box-shadow: 0 2px 0 #139bb3;
     transform: translateY(5px);
+}
+
+#hero_paragraph {
+    border-left: 3px solid #9C000D;
+}
+
+#info_container {
+    height: 40%;
+    width: 100%;
+    background-color: #181A1B;
+}
+
+#info_container_div{
+    width: 100%;
+    height: 20%;
+}
+
+#threed_printing {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 13%;
+    margin: 0;
+}
+
+#img_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer_div{
+    width: 100%;
+    height: 5%;
 }
